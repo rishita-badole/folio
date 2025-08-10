@@ -3,7 +3,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiGrammarly,
-  SiGoogle,
   SiMicrosoftword,
   SiNotion,
   SiOpenai,
@@ -34,10 +33,15 @@ function Toolstack() {
   ];
 
   const skills = [
-  "Research", "Presentation", "Analytical Thinking",
-  "Time Management", "Collaboration", "Attention to Detail",
-  "Creativity", "Problem Solving"
-];
+    "Research",
+    "Presentation",
+    "Analytical Thinking",
+    "Time Management",
+    "Collaboration",
+    "Attention to Detail",
+    "Creativity",
+    "Problem Solving",
+  ];
 
   return (
     <div>

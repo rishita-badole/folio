@@ -1,6 +1,6 @@
 import React from "react";
 import Particle from "../Particle";
-import resumePDF from "../../Assets/Rishita_Badole_Resume.pdf";
+import resumePDF from "../../Assets/Resume_Content_writer.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeNew() {
