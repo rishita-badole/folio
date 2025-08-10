@@ -22,18 +22,16 @@ function ResumeNew() {
         </div>
 
         {/* Full-Page PDF Viewer */}
-        <iframe
+        <embed
           src={resumePDF}
-          title="Resume PDF"
+          type="application/pdf"
           width="100%"
-          height="90vh"
+          height="900vh"
           style={{
-            border: "none",
-            marginTop: "20px",
-            boxShadow: "0 0 15px rgba(0,0,0,0.3)",
             borderRadius: "10px",
+            boxShadow: "0 0 15px rgba(0,0,0,0.3)",
           }}
-        ></iframe>
+        />
       </div>
     </div>
   );
